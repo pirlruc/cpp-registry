@@ -1,0 +1,27 @@
+{
+  "name": "improc-infrastructure",
+  "version": "1.0.0",
+  "port-version": 0,
+  "dependencies": [
+    {
+      "name": "spdlog",
+      "version>=": "1.12.0"
+    },
+    {
+      "name": "jsoncpp",
+      "version>=": "1.9.5"
+    }
+  ],
+  "features": {
+    "tests": {
+      "description": "Support test library",
+      "dependencies": [
+        {
+          "name": "gtest",
+          "version>=": "1.14.0"
+        }
+      ]
+    }
+  },
+  "builtin-baseline": "8eb57355a4ffb410a2e94c07b4dca2dffbee8e50"
+}
