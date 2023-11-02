@@ -1,15 +1,15 @@
 {
   "name": "improc-infrastructure",
   "version": "1.0.0",
-  "port-version": 0,
+  "builtin-baseline": "8eb57355a4ffb410a2e94c07b4dca2dffbee8e50",
   "dependencies": [
-    {
-      "name": "spdlog",
-      "version>=": "1.12.0"
-    },
     {
       "name": "jsoncpp",
       "version>=": "1.9.5"
+    },
+    {
+      "name": "spdlog",
+      "version>=": "1.12.0"
     }
   ],
   "features": {
@@ -22,6 +22,5 @@
         }
       ]
     }
-  },
-  "builtin-baseline": "8eb57355a4ffb410a2e94c07b4dca2dffbee8e50"
+  }
 }
