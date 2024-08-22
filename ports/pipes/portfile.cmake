@@ -4,7 +4,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO pirlruc/pipes
     REF "${VERSION}"
-    SHA512 64625241e3cf738deb77f3fb58752a352e835a9b4fc4d0bfd28a03a191fc157e962bd45270c63d39ad9be576272469a6861295aa007ca54623fd008c771adc1d
+    SHA512 b09cab2c357b070990ca8cd59ee2ce5d37b6ca7484608e1cbdaaaa275c76a61dee80090ecba21aa35bda5e9017f9b5ab78947e0b7ced28a55f9cb6036fb12deb
     HEAD_REF feature-vcpkg
 )
 
