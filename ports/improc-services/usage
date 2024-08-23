@@ -1,0 +1,4 @@
+improc-services provides CMake targets:
+
+find_package(improc-services CONFIG REQUIRED)
+target_link_libraries(main PRIVATE improc::improc-services)

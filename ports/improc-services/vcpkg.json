@@ -1,0 +1,36 @@
+{
+    "name": "improc-services",
+    "version": "1.0.0",
+    "homepage": "https://github.com/pirlruc/services/",
+    "description": "Image processing services library",
+    "license": "MIT",
+    "dependencies": [
+      {
+        "name" : "vcpkg-cmake",
+        "host" : true
+      },
+      {
+        "name" : "vcpkg-cmake-config",
+        "host" : true
+      },
+      {
+        "name": "pipes",
+        "version>=": "0.0.1"
+      },
+      {
+        "name": "improc-infrastructure",
+        "version>=": "1.0.0"
+      }
+    ],
+    "features": {
+      "tests": {
+        "description": "Support test library",
+        "dependencies": [
+          {
+            "name": "gtest",
+            "version>=": "1.15.2"
+          }
+        ]
+      }
+    }
+  }
