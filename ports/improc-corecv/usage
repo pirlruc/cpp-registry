@@ -1,0 +1,5 @@
+improc-corecv provides CMake targets:
+
+    find_package(improc-corecv CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE improc::improc-corecv)
+    
