@@ -1,4 +1,5 @@
 improc-infrastructure provides CMake targets:
 
-find_package(improc-infrastructure CONFIG REQUIRED)
-target_link_libraries(main PRIVATE improc::improc-infrastructure)
+    find_package(improc-infrastructure CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE improc::improc-infrastructure)
+    
