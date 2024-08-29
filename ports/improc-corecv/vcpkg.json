@@ -1,6 +1,6 @@
 {
     "name": "improc-corecv",
-    "version": "1.0.0",
+    "version-string": "45ca919fcf207db7752f11c354004162b48e65f7",
     "homepage": "https://github.com/pirlruc/corecv/",
     "description": "Image processing core computer vision library",
     "license": "MIT",
@@ -15,7 +15,7 @@
       },
       {
         "name": "improc-services",
-        "version>=": "1.0.0"
+        "version>=": "16469c5b10e587756161a79a6969af092b0c0717"
       },
       {
         "name": "opencv4",
