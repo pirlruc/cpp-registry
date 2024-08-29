@@ -5,7 +5,7 @@ vcpkg_from_github(
     REPO pirlruc/pipes
     REF "${VERSION}"
     SHA512 b09cab2c357b070990ca8cd59ee2ce5d37b6ca7484608e1cbdaaaa275c76a61dee80090ecba21aa35bda5e9017f9b5ab78947e0b7ced28a55f9cb6036fb12deb
-    HEAD_REF feature-vcpkg
+    HEAD_REF master
 )
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}")
