@@ -1,10 +1,8 @@
-vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
-
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO pirlruc/pipes
     REF "${VERSION}"
-    SHA512 b09cab2c357b070990ca8cd59ee2ce5d37b6ca7484608e1cbdaaaa275c76a61dee80090ecba21aa35bda5e9017f9b5ab78947e0b7ced28a55f9cb6036fb12deb
+    SHA512 17736f0a75a63db090abd3a02b7fc66cbb3c9fed3875432168b31593f97cdcafe19b71ff800cf2a8374eddb150b92dee5087bf15a4d32b0897e00cb94f74aa0d
     HEAD_REF master
 )
 
