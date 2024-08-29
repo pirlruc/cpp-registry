@@ -1,6 +1,6 @@
 {
   "name": "improc-infrastructure",
-  "version": "1.0.0",
+  "version-string": "35a40f4236ade26ef61caef1a2a6c7131a7cc87c",
   "description": "Image processing infrastructure library",
   "homepage": "https://github.com/pirlruc/infrastructure/",
   "license": "MIT",
