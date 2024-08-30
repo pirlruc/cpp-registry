@@ -1,6 +1,6 @@
 {
   "name": "pipes",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A header only C++ library to create pipelines operating on collections",
   "homepage": "https://github.com/pirlruc/pipes/",
   "license": "MIT",
