@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO pirlruc/services
     REF "${VERSION}"
-    SHA512 21483898c4c28f10d80f74e30d6e42fedaa164d2805ae48828e98964b50e8d59c4b62eba9de26520d53d97a66ea2a9d1f97bf71f57af93bfab4eea0d39cfc9da
+    SHA512 0bfbf3c375bf2e69fd3216b89d66ece0bca00d7bb4c8e818cd4a48d934748681ef7314a65d50ce355c0b77e8eee72ecbe36effecc86eaa8e112507daef8b17cc
 )
 
 vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTIONS

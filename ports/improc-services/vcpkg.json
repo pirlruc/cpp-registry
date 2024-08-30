@@ -1,6 +1,6 @@
 {
     "name": "improc-services",
-    "version-string": "16469c5b10e587756161a79a6969af092b0c0717",
+    "version-string": "46d5565b93e5b8b87dafb66c9fca3a1ac25793f5",
     "homepage": "https://github.com/pirlruc/services/",
     "description": "Image processing services library",
     "license": "MIT",
@@ -19,7 +19,7 @@
       },
       {
         "name": "improc-infrastructure",
-        "version>=": "008f4cd03033aec74e5063fb1b734cb6fdde9d8e"
+        "version>=": "375574e40f0a8a9a4c61752a20cbb0f4f594cebb"
       }
     ],
     "features": {
