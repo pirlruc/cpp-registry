@@ -1,10 +1,24 @@
 {
-    "default": {
-      "jsoncpp": { "baseline": "1.9.6", "port-version": 0 },
-      "pipes": { "baseline": "1.0.1", "port-version": 0 },
-      "improc-infrastructure": { "baseline": "375574e40f0a8a9a4c61752a20cbb0f4f594cebb", "port-version": 0 },
-      "improc-services": { "baseline": "46d5565b93e5b8b87dafb66c9fca3a1ac25793f5", "port-version": 0 },
-      "improc-corecv": { "baseline": "6ce167305c824d9568a46c86e4e6746df2882809", "port-version": 0 },
-      "improc-drawer": { "baseline": "d4ec359ca6c5feb326c224f1ed7e0848744c63e2", "port-version": 0 }
+  "default": {
+    "improc-corecv": {
+      "baseline": "6ce167305c824d9568a46c86e4e6746df2882809",
+      "port-version": 0
+    },
+    "improc-drawer": {
+      "baseline": "d4ec359ca6c5feb326c224f1ed7e0848744c63e2",
+      "port-version": 0
+    },
+    "improc-infrastructure": {
+      "baseline": "c7b25554ac243724bfe5677201e12af3723a0e5c",
+      "port-version": 0
+    },
+    "improc-services": {
+      "baseline": "46d5565b93e5b8b87dafb66c9fca3a1ac25793f5",
+      "port-version": 0
+    },
+    "pipes": {
+      "baseline": "1.0.1",
+      "port-version": 0
     }
+  }
 }
