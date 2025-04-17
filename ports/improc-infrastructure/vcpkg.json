@@ -1,6 +1,6 @@
 {
   "name": "improc-infrastructure",
-  "version-string": "375574e40f0a8a9a4c61752a20cbb0f4f594cebb",
+  "version-string": "c7b25554ac243724bfe5677201e12af3723a0e5c",
   "description": "Image processing infrastructure library",
   "homepage": "https://github.com/pirlruc/infrastructure/",
   "license": "MIT",
@@ -11,7 +11,7 @@
     },
     {
       "name": "spdlog",
-      "version>=": "1.14.1"
+      "version>=": "1.15.2"
     },
     {
       "name": "vcpkg-cmake",
@@ -28,7 +28,7 @@
       "dependencies": [
         {
           "name": "gtest",
-          "version>=": "1.15.2"
+          "version>=": "1.16.0"
         }
       ]
     }
