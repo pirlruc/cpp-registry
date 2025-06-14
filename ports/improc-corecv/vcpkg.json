@@ -1,44 +1,79 @@
 {
-    "name": "improc-corecv",
-    "version-string": "6ce167305c824d9568a46c86e4e6746df2882809",
-    "homepage": "https://github.com/pirlruc/corecv/",
-    "description": "Image processing core computer vision library",
-    "license": "MIT",
-    "dependencies": [
-      {
-        "name" : "vcpkg-cmake",
-        "host" : true
-      },
-      {
-        "name" : "vcpkg-cmake-config",
-        "host" : true
-      },
-      {
-        "name": "improc-services",
-        "version>=": "46d5565b93e5b8b87dafb66c9fca3a1ac25793f5"
-      },
-      {
-        "name": "opencv4",
-        "version>=": "4.8.0",
-        "features": ["default-features","ipp","tbb","openmp","opengl","jpeg","openjpeg","png","tiff"],
-        "platform": "windows"
-      },
-      {
-        "name": "opencv4",
-        "version>=": "4.8.0",
-        "features": ["default-features","openmp","opengl","jpeg","openjpeg","png","tiff"],
-        "platform": "!windows"
-      }
-    ],
-    "features": {
-      "tests": {
-        "description": "Support test library",
-        "dependencies": [
-          {
-            "name": "gtest",
-            "version>=": "1.15.2"
-          }
-        ]
-      }
+  "name": "improc-corecv",
+  "version-string": "3e98d0b908f530fc091cee49082e70edc3ed690d",
+  "description": "Image processing core computer vision library",
+  "homepage": "https://github.com/pirlruc/corecv/",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "improc-services",
+      "version>=": "7825e3f13a8f43ab445ed14cc9e2bdbe62d50931"
+    },
+    {
+      "name": "opencv",
+      "default-features": false,
+      "features": [
+        "jpeg",
+        "opencl",
+        "opengl",
+        "openmp",
+        "png",
+        "thread",
+        "tiff"
+      ],
+      "platform": "!windows",
+      "version>=": "4.11.0"
+    },
+    {
+      "name": "opencv",
+      "default-features": false,
+      "features": [
+        "jpeg",
+        "opencl",
+        "opengl",
+        "openmp",
+        "png",
+        "thread",
+        "tiff"
+      ],
+      "platform": "windows & mingw",
+      "version>=": "4.11.0"
+    },
+    {
+      "name": "opencv",
+      "default-features": false,
+      "features": [
+        "ipp",
+        "jpeg",
+        "opencl",
+        "opengl",
+        "openmp",
+        "png",
+        "tbb",
+        "thread",
+        "tiff"
+      ],
+      "platform": "windows & !mingw",
+      "version>=": "4.11.0"
+    },
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ],
+  "features": {
+    "tests": {
+      "description": "Support test library",
+      "dependencies": [
+        {
+          "name": "gtest",
+          "version>=": "1.17.0"
+        }
+      ]
     }
   }
+}
