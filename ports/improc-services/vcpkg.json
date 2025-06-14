@@ -1,13 +1,13 @@
 {
   "name": "improc-services",
-  "version-string": "7de8af6c97b180f05670b8e7ca104cbbbd4d337c",
+  "version-string": "7825e3f13a8f43ab445ed14cc9e2bdbe62d50931",
   "description": "Image processing services library",
   "homepage": "https://github.com/pirlruc/services/",
   "license": "MIT",
   "dependencies": [
     {
       "name": "improc-infrastructure",
-      "version>=": "492e3c3ed1371b935691accd29162008ad20ce3f"
+      "version>=": "2beeca58592926a1cd85bd7d057b4cedb62688e7"
     },
     {
       "name": "pipes",
@@ -28,7 +28,7 @@
       "dependencies": [
         {
           "name": "gtest",
-          "version>=": "1.16.0"
+          "version>=": "1.17.0"
         }
       ]
     }
