@@ -1,5 +1,32 @@
 {
-    "default": {
-      "improc-infrastructure": { "baseline": "1.0.0", "port-version": 0 }
+  "default": {
+    "runa": {
+      "baseline": "0.1.0",
+      "port-version": 0
+    },
+    "bor": {
+      "baseline": "0.1.0",
+      "port-version": 0
+    },
+    "mjolnir": {
+      "baseline": "0.1.0",
+      "port-version": 0
+    },
+    "edda": {
+      "baseline": "0.1.0",
+      "port-version": 0
+    },
+    "mimir": {
+      "baseline": "0.1.0",
+      "port-version": 0
+    },
+    "bifrost": {
+      "baseline": "1.0.0",
+      "port-version": 0
+    },
+    "nornir": {
+      "baseline": "1.0.0",
+      "port-version": 0
     }
+  }
 }

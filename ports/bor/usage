@@ -1,0 +1,4 @@
+The package bor provides CMake targets:
+
+    find_package(bor CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE bor::bor)

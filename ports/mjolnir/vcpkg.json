@@ -1,0 +1,26 @@
+{
+  "name": "mjolnir",
+  "version": "0.1.0",
+  "description": "Design patterns: factory, registry, singleton, chain of responsibility, and visitor",
+  "homepage": "https://github.com/pirlruc/mjolnir-cpp",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "bor"
+    },
+    {
+      "name": "runa"
+    },
+    {
+      "name": "fmt"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+The package mimir provides CMake targets:
+
+    find_package(mimir CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE mimir::mimir)
