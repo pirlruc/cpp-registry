@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/pirlruc/runa-cpp.git
-    REF 41951b18f75199ede6dc00356c75b1099af7f8cd
+    REF 761d5b38efdc4b35252f02ed23c0ce0be40b7bed
 )
 
 vcpkg_cmake_configure(

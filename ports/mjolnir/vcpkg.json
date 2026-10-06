@@ -1,6 +1,6 @@
 {
   "name": "mjolnir",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Design patterns: factory, registry, singleton, chain of responsibility, and visitor",
   "homepage": "https://github.com/pirlruc/mjolnir-cpp",
   "license": "MIT",
