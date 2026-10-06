@@ -1,0 +1,4 @@
+The package bifrost provides CMake targets:
+
+    find_package(bifrost CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE bifrost::bifrost)

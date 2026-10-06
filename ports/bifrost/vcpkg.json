@@ -1,0 +1,20 @@
+{
+  "name": "bifrost",
+  "version": "1.0.0",
+  "description": "Filesystem helpers with path confinement and bounded reads",
+  "homepage": "https://github.com/pirlruc/bifrost-cpp",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "bor"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "bor",
+  "version": "0.1.0",
+  "description": "Core primitives, constexpr static maps, and the base exception hierarchy",
+  "homepage": "https://github.com/pirlruc/bor-cpp",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

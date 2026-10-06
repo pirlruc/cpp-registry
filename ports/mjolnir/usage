@@ -1,0 +1,4 @@
+The package mjolnir provides CMake targets:
+
+    find_package(mjolnir CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE mjolnir::mjolnir)
