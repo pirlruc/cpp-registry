@@ -1,6 +1,6 @@
 {
   "name": "bor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Core primitives, constexpr static maps, and the base exception hierarchy",
   "homepage": "https://github.com/pirlruc/bor-cpp",
   "license": "MIT",

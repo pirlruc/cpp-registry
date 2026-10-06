@@ -1,6 +1,6 @@
 {
   "name": "nornir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typed dataflow graph with a topological executor",
   "homepage": "https://github.com/pirlruc/nornir-cpp",
   "license": "MIT",
