@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/pirlruc/nornir-cpp.git
-    REF 86226217f71d6b693615e594932d8ef8e9072ead
+    REF d7042482462dea42da8bf7f8465055bfae3806c2
 )
 
 vcpkg_cmake_configure(

@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/pirlruc/bifrost-cpp.git
-    REF a5e929bcfe701d1caffda13f389651fb863029af
+    REF 90631a202d4277065f77646c24ba44d21a8d6e26
 )
 
 vcpkg_cmake_configure(
