@@ -1,6 +1,7 @@
 {
   "name": "edda",
   "version": "0.1.0",
+  "port-version": 1,
   "description": "Serialization over nlohmann/json: typed reads, base64, and protobuf JSON",
   "homepage": "https://github.com/pirlruc/edda-cpp",
   "license": "MIT",
@@ -28,5 +29,16 @@
     {
       "name": "aklomp-base64"
     }
-  ]
+  ],
+  "features": {
+    "protobuf-json": {
+      "description": "JSON <-> protobuf transcoder (EDDA_WITH_PROTOBUF_JSON)",
+      "dependencies": [
+        {
+          "name": "protobuf",
+          "version>=": "5.29.3"
+        }
+      ]
+    }
+  }
 }

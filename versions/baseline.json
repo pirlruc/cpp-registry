@@ -14,7 +14,7 @@
     },
     "edda": {
       "baseline": "0.1.0",
-      "port-version": 0
+      "port-version": 1
     },
     "mimir": {
       "baseline": "0.1.0",

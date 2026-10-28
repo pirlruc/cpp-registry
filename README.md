@@ -7,6 +7,10 @@ vcpkg registry for the pirlruc C++ libraries.
 Point `vcpkg-configuration.json` at this repository and pin `baseline` to a
 commit. Packages: `bor`, `runa`, `mjolnir`, `edda`, `mimir`, `bifrost`, `nornir`.
 
+`edda` accepts the optional `protobuf-json` feature
+(`vcpkg install edda[protobuf-json]`). That feature adds the JSON to protobuf
+transcoder. The default install stays free of protobuf.
+
 Each port's `REF` is the commit of the library release tag. `versions/<letter>-/<port>.json`
 records the git tree of `ports/<port>` at that version. `scripts/check-git-trees.py`
 checks that the newest entry matches `git rev-parse HEAD:ports/<port>` and the

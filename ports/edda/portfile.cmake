@@ -4,9 +4,16 @@ vcpkg_from_git(
     REF fc1f22df541e824349ae32e240bb1eb907771881
 )
 
+vcpkg_check_features(
+    OUT_FEATURE_OPTIONS FEATURE_OPTIONS
+    FEATURES
+        protobuf-json EDDA_WITH_PROTOBUF_JSON
+)
+
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
     OPTIONS
+        ${FEATURE_OPTIONS}
         -DPIRLRUC_WITH_TESTS=OFF
 )
 

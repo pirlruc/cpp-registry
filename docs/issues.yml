@@ -1,0 +1,42 @@
+repo: pirlruc/cpp-registry
+milestones:
+  - name: Registry
+    status: done
+    epics:
+      - id: REG-001
+        status: done
+        title: Pin companions and expose the edda protobuf-json feature
+        decision: >-
+          In the context of installing pirlruc C++ libraries from this
+          vcpkg registry, facing ports that could not select edda's
+          protobuf transcoder and a registry with no pinned guardrails
+          checkout, we decided to publish the protobuf-json feature on
+          the edda port and pin guardrails 1.13.1 with github-scaffold
+          1.10.2, to achieve a feature install that matches the library
+          and a doc check that parses this manifest, accepting a
+          port-version bump on edda 0.1.0.
+        overview:
+          problem: The edda port installed the core library only, and the registry had no companion pins or authored backlog.
+          goal: Callers can install edda[protobuf-json], and docs/issues.yml is parsed in CI.
+        architecture:
+          target: ports/edda
+          modules:
+            - edda
+        acceptance_criteria:
+          - ports/edda/vcpkg.json declares the protobuf-json feature.
+          - The portfile enables EDDA_WITH_PROTOBUF_JSON when that feature is selected.
+          - docs/guardrails is 1.13.1 and .github/scaffold is 1.10.2.
+        tasks:
+          - id: REG-001-T1
+            status: done
+            title: Publish the protobuf-json port feature
+            instructions:
+              files:
+                - ports/edda/vcpkg.json
+                - ports/edda/portfile.cmake
+            verification:
+              - python3 scripts/check-git-trees.py
+            guardrail_refs:
+              - REL-VER-001
+        guardrail_refs:
+          - REL-VER-001

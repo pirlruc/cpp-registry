@@ -1,0 +1,19 @@
+name: Docs
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  docs:
+    permissions:
+      contents: read
+    uses: pirlruc/commondevops/.github/workflows/common-doc-verify.yml@b85f95bbac8ba7d82eb90d1d84d1b8d1e8590a12
+    with:
+      blocking: true
+      yaml_files: docs/issues.yml
+      yaml_globs: .github/workflows/*.yml
+      scripts_ref: b85f95bbac8ba7d82eb90d1d84d1b8d1e8590a12
