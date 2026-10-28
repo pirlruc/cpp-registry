@@ -7,7 +7,7 @@ vcpkg git registry for the pirlruc C++ libraries. Consumer instructions are in
 
 | Item | Value |
 |------|-------|
-| Branch | `feature-registry-scaffold` |
+| Branch | `main` (`a92500f`, pull request 4). Do not move the edda 0.1.0 git-tree that port-version 0 recorded. |
 | `docs/guardrails` | tag **1.13.1** → `1945211ac851c3c0f83694bd4ea53571fdced4ab` |
 | `.github/scaffold` | tag **1.10.2** → `c8eddcfb2c8a808981e640fa9739cb4fcefa991e` |
 | commondevops doc verify | tag **5.6.2** → `b85f95bbac8ba7d82eb90d1d84d1b8d1e8590a12` |
@@ -37,8 +37,6 @@ and draupnir have no ports yet.
 
 ## Recent history
 
-- 2026-10-28: Pull requests 2 and 3 are on `main` (`b1796ab`). This branch adds
-  the companion submodules, the edda `protobuf-json` feature, the doc-verify
-  caller, `docs/issues.yml`, and this handoff.
+- 2026-10-28: Pull request 4 merged as `a92500f`. guardrails is 1.13.1, github-scaffold is 1.10.2, edda port-version 1 publishes `protobuf-json`, and doc verify calls commondevops 5.6.2. Issue sync created and closed [#5](https://github.com/pirlruc/cpp-registry/issues/5) and [#6](https://github.com/pirlruc/cpp-registry/issues/6). Pull requests 2 and 3 were already on `b1796ab`.
 
-*Last updated: 2026-10-28 (registry companions and edda protobuf-json feature)*
+*Last updated: 2026-10-28 (PR 4 on main; REG-001 closed)*
