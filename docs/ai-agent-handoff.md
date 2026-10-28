@@ -33,11 +33,12 @@ commondevops is public, so the caller does not pass `checkout_token`.
 
 ## Suggested next work
 
-Bump a library port only after that library's release tag exists. heimdallcv
-and draupnir have no ports yet.
+Bump the next library port only after that library's release tag exists.
+`bor` is still 0.2.0. heimdallcv and draupnir have no ports yet.
 
 ## Recent history
 
+- 2026-10-28: `runa` 0.3.0 pins `4a0f8dcd353be55bc14f8c5407f02fe4aaa925d7`. The 0.2.0 git-tree stays in `versions/r-/runa.json`.
 - 2026-10-28: Pull request 4 merged as `a92500f`. guardrails is 1.13.1, github-scaffold is 1.10.2, edda port-version 1 publishes `protobuf-json`, and doc verify calls commondevops 5.6.2. Issue sync created and closed [#5](https://github.com/pirlruc/cpp-registry/issues/5) and [#6](https://github.com/pirlruc/cpp-registry/issues/6). Pull requests 2 and 3 were already on `b1796ab`.
 
-*Last updated: 2026-10-28 (PR 4 on main; REG-001 closed)*
+*Last updated: 2026-10-28*
