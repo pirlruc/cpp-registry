@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/pirlruc/bor-cpp.git
-    REF 56a54d7d616a6adead49cd8c0f61a86fc7599f97
+    REF e4dba6b20561f590015429ea768235e1c3ce50c7
 )
 
 vcpkg_cmake_configure(
