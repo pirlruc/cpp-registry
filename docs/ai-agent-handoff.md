@@ -12,6 +12,7 @@ vcpkg git registry for the pirlruc C++ libraries. Consumer instructions are in
 | `.github/scaffold` | tag **1.10.2** → `c8eddcfb2c8a808981e640fa9739cb4fcefa991e` |
 | commondevops doc verify | tag **5.6.2** → `b85f95bbac8ba7d82eb90d1d84d1b8d1e8590a12` |
 | edda port | version **0.1.0**, port-version **1**, feature `protobuf-json` |
+| runa port | version **0.3.0**, REF `4a0f8dcd353be55bc14f8c5407f02fe4aaa925d7` (`v0.3.0`) |
 
 ## Commands
 
