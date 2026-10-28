@@ -2,3 +2,7 @@ The package edda provides CMake targets:
 
     find_package(edda CONFIG REQUIRED)
     target_link_libraries(main PRIVATE edda::edda)
+
+The optional `protobuf-json` feature installs the JSON to protobuf transcoder:
+
+    vcpkg install edda[protobuf-json]
