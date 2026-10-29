@@ -14,6 +14,7 @@ vcpkg git registry for the pirlruc C++ libraries. Consumer instructions are in
 | edda port | version **0.1.0**, port-version **1**, feature `protobuf-json` |
 | runa port | version **0.3.0**, REF `4a0f8dcd353be55bc14f8c5407f02fe4aaa925d7` (`v0.3.0`) |
 | bor port | version **0.2.1**, REF `e4dba6b20561f590015429ea768235e1c3ce50c7` (`v0.2.1`) |
+| mjolnir port | version **0.1.2**, REF `f92b89323a0176652aaa828b00a932f7c19d9e08` (`v0.1.2`). Older git-trees stay in `versions/m-/mjolnir.json`. |
 
 ## Commands
 
@@ -39,8 +40,9 @@ heimdallcv and draupnir have no ports yet.
 
 ## Recent history
 
+- 2026-10-29: `mjolnir` 0.1.2 pins `f92b89323a0176652aaa828b00a932f7c19d9e08`. The 0.1.1 and 0.1.0 git-trees stay in `versions/m-/mjolnir.json`.
 - 2026-10-28: `bor` 0.2.1 pins `e4dba6b20561f590015429ea768235e1c3ce50c7`. The 0.2.0 git-tree stays in `versions/b-/bor.json`.
 - 2026-10-28: `runa` 0.3.0 pins `4a0f8dcd353be55bc14f8c5407f02fe4aaa925d7`. The 0.2.0 git-tree stays in `versions/r-/runa.json`.
 - 2026-10-28: Pull request 4 merged as `a92500f`. guardrails is 1.13.1, github-scaffold is 1.10.2, edda port-version 1 publishes `protobuf-json`, and doc verify calls commondevops 5.6.2. Issue sync created and closed [#5](https://github.com/pirlruc/cpp-registry/issues/5) and [#6](https://github.com/pirlruc/cpp-registry/issues/6). Pull requests 2 and 3 were already on `b1796ab`.
 
-*Last updated: 2026-10-28*
+*Last updated: 2026-10-29*
