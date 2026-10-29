@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/pirlruc/mjolnir-cpp.git
-    REF a0ded5a4b8f3214d725390cfafbc86419c364db5
+    REF f92b89323a0176652aaa828b00a932f7c19d9e08
 )
 
 vcpkg_cmake_configure(
