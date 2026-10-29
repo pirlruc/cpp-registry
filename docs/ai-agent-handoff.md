@@ -7,11 +7,11 @@ vcpkg git registry for the pirlruc C++ libraries. Consumer instructions are in
 
 | Item | Value |
 |------|-------|
-| Branch | `main` (`a92500f`, pull request 4). Do not move the edda 0.1.0 git-tree that port-version 0 recorded. |
+| Branch | `main`. Do not move older edda git-trees in `versions/e-/edda.json`. |
 | `docs/guardrails` | tag **1.13.1** → `1945211ac851c3c0f83694bd4ea53571fdced4ab` |
 | `.github/scaffold` | tag **1.10.2** → `c8eddcfb2c8a808981e640fa9739cb4fcefa991e` |
 | commondevops doc verify | tag **5.6.2** → `b85f95bbac8ba7d82eb90d1d84d1b8d1e8590a12` |
-| edda port | version **0.1.0**, port-version **1**, feature `protobuf-json` |
+| edda port | version **0.1.1**, REF `d8a84192896d7c9c96ec59f655d060526b49f6c0` (`v0.1.1`). Older git-trees stay in `versions/e-/edda.json`. |
 | runa port | version **0.3.0**, REF `4a0f8dcd353be55bc14f8c5407f02fe4aaa925d7` (`v0.3.0`) |
 | bor port | version **0.2.1**, REF `e4dba6b20561f590015429ea768235e1c3ce50c7` (`v0.2.1`) |
 | mjolnir port | version **0.1.2**, REF `f92b89323a0176652aaa828b00a932f7c19d9e08` (`v0.1.2`). Older git-trees stay in `versions/m-/mjolnir.json`. |
@@ -35,14 +35,14 @@ commondevops is public, so the caller does not pass `checkout_token`.
 
 ## Suggested next work
 
-Bump the next library port only after that library's release tag exists.
-heimdallcv and draupnir have no ports yet.
+Next: mimir port after mimir releases. heimdallcv and draupnir have no ports yet.
 
 ## Recent history
 
+- 2026-10-29: `edda` 0.1.1 pins `d8a84192896d7c9c96ec59f655d060526b49f6c0`. The 0.1.0 port-version 1 git-tree stays in `versions/e-/edda.json`.
 - 2026-10-29: `mjolnir` 0.1.2 pins `f92b89323a0176652aaa828b00a932f7c19d9e08`. The 0.1.1 and 0.1.0 git-trees stay in `versions/m-/mjolnir.json`.
 - 2026-10-28: `bor` 0.2.1 pins `e4dba6b20561f590015429ea768235e1c3ce50c7`. The 0.2.0 git-tree stays in `versions/b-/bor.json`.
 - 2026-10-28: `runa` 0.3.0 pins `4a0f8dcd353be55bc14f8c5407f02fe4aaa925d7`. The 0.2.0 git-tree stays in `versions/r-/runa.json`.
 - 2026-10-28: Pull request 4 merged as `a92500f`. guardrails is 1.13.1, github-scaffold is 1.10.2, edda port-version 1 publishes `protobuf-json`, and doc verify calls commondevops 5.6.2. Issue sync created and closed [#5](https://github.com/pirlruc/cpp-registry/issues/5) and [#6](https://github.com/pirlruc/cpp-registry/issues/6). Pull requests 2 and 3 were already on `b1796ab`.
 
-*Last updated: 2026-10-29*
+*Last updated: 2026-10-29 (edda 0.1.1)*
