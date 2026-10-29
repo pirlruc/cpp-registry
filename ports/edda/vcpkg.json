@@ -1,7 +1,6 @@
 {
   "name": "edda",
-  "version": "0.1.0",
-  "port-version": 1,
+  "version": "0.1.1",
   "description": "Serialization over nlohmann/json: typed reads, base64, and protobuf JSON",
   "homepage": "https://github.com/pirlruc/edda-cpp",
   "license": "MIT",

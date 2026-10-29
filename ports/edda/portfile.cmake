@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/pirlruc/edda-cpp.git
-    REF fc1f22df541e824349ae32e240bb1eb907771881
+    REF d8a84192896d7c9c96ec59f655d060526b49f6c0
 )
 
 vcpkg_check_features(
